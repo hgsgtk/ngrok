@@ -6,5 +6,5 @@ src/github.com
 src/bitbucket.org
 src/launchpad.net
 src/gopkg.in
-src/ngrok/client/assets/
-src/ngrok/server/assets/
+src/github.com/hgsgtk/ngrok/internal/client/assets/
+src/github.com/hgsgtk/ngrok/assets/server/
