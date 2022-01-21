@@ -14,7 +14,7 @@
 - BUGFIX: Check for a valid server address without trying to resolve for less confusing errors
 
 ## 1.6 -  10/25/2013
-- BUGFIX: Fixed a goroutine/memory leak in ngrok/proto's parsing of http traffic
+- BUGFIX: Fixed a goroutine/memory leak in github.com/hgsgtk/ngrok/internal/proto's parsing of http traffic
 - IMPROVEMENT: The web inspection API can now be disabled again by setting inspect_addr: disabled in the config file
 
 ## 1.5 - 10/20/2013

@@ -95,9 +95,9 @@ Messages are sent over the wire as netstrings of the form:
 The message length is sent as a 64-bit little endian integer.
 
 ### Code
-The definitions and shared protocol routines lives under _src/ngrok/msg_
+The definitions and shared protocol routines lives under _src/github.com/hgsgtk/ngrok/internal/msg_
 
-#### src/ngrok/msg/msg.go
+#### src/github.com/hgsgtk/ngrok/internal/msg/msg.go
 All of the different message types (Auth, AuthResp, ReqTunnel, RegProxy, StartProxy, etc) are defined here and their fields documented. This is a good place to go to understand exactly what messages are sent between the client and server.
     
 ## ngrokd - the server
@@ -110,10 +110,10 @@ There is a stub at _src/ngrok/main/ngrokd/ngrokd.go_ for the purposes of creatin
 
 ## ngrok - the client
 ### Code
-Code for the client lives under src/ngrok/client
+Code for the client lives under src/github.com/hgsgtk/ngrok/internal/client
 
 ### Entry point
-The ngrok entry point is in _src/ngrok/client/main.go_.
+The ngrok entry point is in _src/github.com/hgsgtk/ngrok/internal/client/main.go_.
 There is a stub at _src/ngrok/main/ngrok/ngrok.go_ for the purposes of creating a properly named binary and being in its own "main" package to comply with go's build system.
 
 ## Static assets
